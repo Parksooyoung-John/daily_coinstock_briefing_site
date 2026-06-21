@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="매일 아침 텔레그램으로 텍스트 투자 브리핑과 이미지 리포트를 자동 발송하는 Daily CoinStock Briefing"
+    />
+    <title>Daily CoinStock Briefing | 텔레그램 투자 브리핑 자동화</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <strong>Daily CoinStock Briefing</strong>
+        <div class="nav-links">
+          <a href="#sample">샘플</a>
+          <a href="#setup">진행 방식</a>
+          <a href="#contact">문의</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Telegram Only 투자 브리핑 자동화</p>
+          <h1>매일 아침 텔레그램으로 받는 투자 브리핑</h1>
+          <p>
+            보유 자산, 시장 지표, 주요 뉴스를 자동 수집해 텍스트 요약과 이미지 리포트를 함께 전송합니다.
+            고객은 텔레그램 채팅방에서 오늘의 포트폴리오와 시장 포인트를 바로 확인할 수 있습니다.
+          </p>
+          <div class="hero-actions">
+            <a class="cta" href="#contact">크몽 상품 준비중</a>
+            <a class="cta secondary" href="customer_intake_form.md">고객 정보 요청서</a>
+          </div>
+        </div>
+
+        <aside class="telegram-card" aria-label="텔레그램 리포트 미리보기">
+          <div class="chat-header">
+            <span class="dot"></span>
+            <strong>Daily Briefing Bot</strong>
+          </div>
+          <p class="chat-line">📊 포트폴리오 현황</p>
+          <p>총 평가금액, 손익, 수익률과 비중 높은 자산을 요약합니다.</p>
+          <p class="chat-line">🌐 오늘 시장</p>
+          <p>S&P 500, NASDAQ, USD/KRW와 주요 뉴스 흐름을 연결합니다.</p>
+          <p class="chat-line">🎯 오늘의 포인트</p>
+          <p>1. 비중 점검<br />2. 손실 구간 확인<br />3. 관련 뉴스 관찰</p>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="features" aria-label="핵심 기능">
+        <article>
+          <span>01</span>
+          <h2>계좌/시장 데이터 수집</h2>
+          <p>증권사 API, 업비트 API, 시장 지표, 뉴스 RSS를 고객 환경에 맞게 연결합니다.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h2>AI 브리핑 생성</h2>
+          <p>단순 숫자 나열이 아니라 보유 자산과 연결된 시장 해석과 점검 포인트를 정리합니다.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h2>텔레그램 이미지 발송</h2>
+          <p>텍스트 브리핑과 시황 이미지가 같은 텔레그램 채팅방에 순서대로 도착합니다.</p>
+        </article>
+      </section>
+
+      <section id="sample" class="sample-section">
+        <div class="section-copy">
+          <p class="eyebrow">Sample Report</p>
+          <h2>한눈에 보는 이미지 시황 보드</h2>
+          <p>
+            텍스트로 먼저 요약을 받고, 이미지 리포트로 주요 지수, 보유자산 영향, 뉴스와 리스크를 다시 확인합니다.
+            모바일에서 바로 읽을 수 있도록 1080px 폭 기준으로 생성합니다.
+          </p>
+        </div>
+        <figure class="sample-frame">
+          <img src="assets/market_summary_sample.png" alt="Daily CoinStock Briefing 시황 이미지 리포트 샘플" />
+          <figcaption>샘플 데이터 기반 이미지 리포트입니다. 실제 고객 리포트는 고객 계좌와 관심 자산 기준으로 생성됩니다.</figcaption>
+        </figure>
+      </section>
+
+      <section class="offer-section" aria-label="제공 범위">
+        <div class="section-copy">
+          <p class="eyebrow">Service Options</p>
+          <h2>계좌 연동 방식만 선택하면 됩니다</h2>
+          <p>초기 상품은 발송 채널과 이미지 템플릿을 단순화했습니다. 텔레그램으로 고정해 전달 품질과 운영 안정성을 우선합니다.</p>
+        </div>
+        <div class="option-grid">
+          <article>
+            <h3>증권사 API 연동</h3>
+            <p>해외주식 보유현황, 평가금액, 손익, 수익률을 기반으로 브리핑합니다. 증권사 API 제공 여부를 먼저 확인합니다.</p>
+          </article>
+          <article>
+            <h3>업비트 연동</h3>
+            <p>보유 코인, 원화 예수금, 종목별 수익률과 주요 암호화폐 뉴스를 함께 정리합니다.</p>
+          </article>
+          <article>
+            <h3>계좌 미연동</h3>
+            <p>API 연동 없이 관심 종목, 시장 지표, 뉴스 중심으로 데일리 브리핑을 제공합니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="setup" class="steps">
+        <div class="section-copy">
+          <p class="eyebrow">Setup Flow</p>
+          <h2>구축은 4단계로 진행합니다</h2>
+        </div>
+        <ol>
+          <li><strong>고객 정보 확인</strong><span>계좌 연동 방식, 텔레그램 Bot Token, Chat ID를 확인합니다.</span></li>
+          <li><strong>서버/API 설정</strong><span>AWS 서버에 고객별 config와 secrets env를 분리해 설정합니다.</span></li>
+          <li><strong>테스트 발송</strong><span>샘플 리포트와 실제 데이터 리포트를 발송 전 검토합니다.</span></li>
+          <li><strong>자동 발송 등록</strong><span>매일 오전 9시 텔레그램 자동 발송 cron을 등록합니다.</span></li>
+        </ol>
+      </section>
+
+      <section class="trust-section">
+        <article>
+          <h2>보안 원칙</h2>
+          <p>API 키는 조회 권한만 사용합니다. 주문, 매수, 매도, 출금 권한은 사용하지 않습니다. 고객별 토큰은 서버의 secrets 파일에만 저장합니다.</p>
+        </article>
+        <article>
+          <h2>투자 유의사항</h2>
+          <p>리포트는 투자 참고용 정보입니다. 투자 판단과 결과의 책임은 사용자 본인에게 있습니다.</p>
+        </article>
+      </section>
+
+      <section id="contact" class="contact">
+        <p class="eyebrow">Coming Soon</p>
+        <h2>크몽 상품 준비중</h2>
+        <p>현재 MVP 판매 페이지와 고객 온보딩 절차를 준비하고 있습니다. 먼저 고객 정보 요청서를 기준으로 테스트 고객을 설정할 수 있습니다.</p>
+        <a class="cta" href="customer_intake_form.md">고객 정보 요청서 보기</a>
+      </section>
+    </main>
+  </body>
+</html>
