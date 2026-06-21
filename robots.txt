@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://parksooyoung-john.github.io/daily_coinstock_briefing_site/sitemap.xml
